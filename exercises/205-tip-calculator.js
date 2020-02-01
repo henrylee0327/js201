@@ -10,6 +10,34 @@
 // tipAmount(100, 'good') --> 20
 // tipAmount(40, 'fair') --> 6
 
+function tipAmount(number, level) { 
+    if (level == 'good' ) {
+        return number * 0.20
+    }
+    else if (level == 'fair') {
+        return number * 0.15
+    }
+    else if (level == 'poor') {
+        return number * 0.10
+    }
+    
+}
+
+
+
+
+
+// {
+    // if (level = 'good') {
+    //     return number * 20%
+    // } else if (level = 'fair') {
+    //     return number * 15%
+    // } else (level = 'poor') {
+    //     return number * 10%
+    // }
+
+
+
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

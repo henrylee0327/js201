@@ -2,7 +2,6 @@
 // It should return a new string: (name)'s favorite subject in school is (subject).
 // Example: madlib('Anushka', 'art') should return "Anushka's favorite subject in school is art."
 
-function madlib ('name', 'subject')
-    var name = 'name'
-    var subject = 'subject'
-    return 'name' + "s" + 'favorite subject in school is' + '(subject)' 
+function madlib (name, subject) {
+    return name + "'s favorite subject in school is " + subject + "."
+}
