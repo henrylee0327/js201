@@ -21,6 +21,27 @@
 // isVowel(99) --> false
 // isVowel({e: 'Elephant'}) --> false
 
+function isVowel (inputChar) {
+    const vowelArray = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U',]
+    for (let index = 0; index < vowelArray.length; index++) {
+        if (inputChar == vowelArray[index]) {
+            return true
+        }
+        else {return false
+        }
+    }
+    }
+
+
+
+// function isVowel (character) {
+//     if (typeof character == 'A' 'E' 'I' 'O' 'U' 'a' 'e' 'i' 'o' 'u') {
+//         return true
+//     }
+//     else {
+//         return false
+//     }
+// }
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -37,6 +58,16 @@
 // isOdd('7') --> false
 // isOdd(3.14) --> false
 
+// function isEven (number) {
+//     if (number % 2 == 0) {
+//         return true}
+// }
+
+// function isOdd (number) {
+//     if (number % 2 !== 0) {
+//         return false
+//     }
+// }
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
