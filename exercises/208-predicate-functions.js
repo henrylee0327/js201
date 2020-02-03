@@ -24,12 +24,11 @@
 function isVowel (inputChar) {
     const vowelArray = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U',]
     for (let index = 0; index < vowelArray.length; index++) {
-        if (inputChar == vowelArray[index]) {
+        if (inputChar === vowelArray[index]) {
             return true
         }
-        else {return false
-        }
     }
+    return false
     }
 
 
