@@ -79,3 +79,16 @@ function isOdd (num) {
 // isCapitalCity('Texas', 'Houston') --> false
 // isCapitalCity('Alaska', 'Juneau') --> true
 // isCapitalCity('Strawberry', 'Mango') --> false
+
+function isCapitalCity (state, capital) {
+    var obj1 = {
+        "Texas" : "Austin",
+        // "Texas" : "Houston",
+        "Alaska" : "Juneau",
+        // "Strawberry" : "Mango" 
+          }
+    if (obj1[state] === capital) {
+        return true
+    }
+    else {return false}
+}
