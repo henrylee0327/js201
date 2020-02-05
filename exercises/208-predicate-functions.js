@@ -46,12 +46,15 @@ function isVowel (inputChar) {
 // isOdd(3.14) --> false
 
 function isEven (num) {
-    if (Number.isInteger(num) && num % 2 == 0) {
-        return true
-    }   
-    else {
-        return false
-    }
+    return typeof num === 'number' && num % 2 === 0
+    // return Number.isInteger(num) && num % 2 === 0
+
+    // if (Number.isInteger(num) && num % 2 == 0) {
+    //     return true
+    // }   
+    // else {
+    //     return false
+    // }
 }
 
 function isOdd (num) {
