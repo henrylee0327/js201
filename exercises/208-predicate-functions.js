@@ -31,18 +31,6 @@ function isVowel (inputChar) {
     return false
     }
 
-
-
-// function isVowel (character) {
-//     if (typeof character == 'A' 'E' 'I' 'O' 'U' 'a' 'e' 'i' 'o' 'u') {
-//         return true
-//     }
-//     else {
-//         return false
-//     }
-// }
-
-
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Write two functions: "isEven" and "isOdd" that take a number argument and
 // return true or false if the number is even or odd, respectively.
@@ -57,16 +45,24 @@ function isVowel (inputChar) {
 // isOdd('7') --> false
 // isOdd(3.14) --> false
 
-// function isEven (number) {
-//     if (number % 2 == 0) {
-//         return true}
-// }
+function isEven (num) {
+    if (Number.isInteger(num) && num % 2 == 0) {
+        return true
+    }   
+    else {
+        return false
+    }
+}
 
-// function isOdd (number) {
-//     if (number % 2 !== 0) {
-//         return false
-//     }
-// }
+function isOdd (num) {
+    if (Number.isInteger(num) && num % 2 !== 0) {
+        return true
+    }
+    else {
+        return false
+    }
+}
+
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
