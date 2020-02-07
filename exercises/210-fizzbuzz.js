@@ -13,7 +13,7 @@
 function fizzbuzz (inputNumber) {
     var str1 = ""
 
-    for (var index = 1; index <= inputNumber; i++) {
+    for (var index = 1; index <= inputNumber; index++) {
         if (index % 3 !== 0 && index % 5 !== 0) {
             str1 = str1 + "."
         }
