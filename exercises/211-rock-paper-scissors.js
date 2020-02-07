@@ -7,8 +7,27 @@
 // rockPaperScissors('rock', 'paper') --> 'player 2'
 // rockPaperScissors('paper', 'paper') --> 'draw'
 
-function rockPaperScissors (player_1, player_2) {
-    var arr = ['rock', 'paper', 'scissors']
+function rockPaperScissors (playerA, playerB) {
+    var rps = (playerA, playerB)
 
-    for (var )
-}
+        if (playerA === 'rock' && playerB === 'scissors') {
+            return 'player 1'
+        } else if (playerA === 'rock' && playerB === 'paper') {
+            return 'player 2'
+        } else if (playerA === 'paper' && playerB === 'rock') {
+            return 'player 1'
+        } else if (playerA === 'paper' && playerB === 'scissors') {
+            return 'player 2'
+        } else if (playerA === 'scissors' && playerB === 'rock') {
+            return 'player 2'
+        } else if (playerA === 'scissors' && playerB === 'paper') {
+            return 'player 1'
+        } else if (playerA === playerB) {
+            return 'draw'
+        }
+     
+    }
+
+    // if (player_1 === player_2) {
+    //     return ('draw')
+    // }
