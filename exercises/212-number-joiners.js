@@ -6,9 +6,11 @@
 // numberJoinerWhile(12, 14) --> '12_13_14'
 function numberJoinerWhile (sNumber, eNumber) {
     var str1 = ""
-    while (var i = 1; i < sNumber; i++) {
-         return str1 = str1 + "_"
+    
+    while (sNumber < eNumber) {
+        str1 = sNumber + "_"
     }
+    return str1
 }
 
 
