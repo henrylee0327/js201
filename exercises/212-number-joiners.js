@@ -35,3 +35,13 @@ function numberJoinerFor (sNumber, eNumber) {
 // numberJoinerFancy(1, 10) --> '1_2_3_4_5_6_7_8_9_10'
 // numberJoinerFancy(1, 5, '~') --> 1~2~3~4~5
 // numberJoinerFancy(3, 6, '***BANANAS***') --> 1***BANANAS***2***BANANAS***3
+
+function numberJoinerFancy (sNumber, eNumber) {
+    
+    var str1 = ""
+
+    while (sNumber < eNumber) {
+        str1 = sNumber + eNumber
+    }
+    return str1
+}
