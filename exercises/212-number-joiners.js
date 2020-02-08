@@ -8,7 +8,7 @@ function numberJoinerWhile (sNumber, eNumber) {
     var str1 = ""
     
     while (sNumber < eNumber) {
-        str1 = sNumber + "_"
+        str1 = sNumber + "_" + eNumber
     }
     return str1
 }
@@ -17,8 +17,15 @@ function numberJoinerWhile (sNumber, eNumber) {
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Write a function "numberJoinerFor" which does the same thing as "numberJoinerWhile",
 // except using a "for" loop internally.
+function numberJoinerFor (sNumber, eNumber) {
 
+    var str1 = ""
 
+    for (var i = 0; i < eNumber; i++) {
+        str1 = sNumber + "_" + eNumber
+    }
+    return str1
+}
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Write a function "numberJoinerFancy" which does the same thing as "numberJoinerWhile",
