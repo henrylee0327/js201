@@ -4,7 +4,12 @@
 // Examples:
 // numberJoinerWhile(1, 10) --> '1_2_3_4_5_6_7_8_9_10'
 // numberJoinerWhile(12, 14) --> '12_13_14'
-
+function numberJoinerWhile (sNumber, eNumber) {
+    var str1 = ""
+    while (var i = 1; i < sNumber; i++) {
+         return str1 = str1 + "_"
+    }
+}
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
