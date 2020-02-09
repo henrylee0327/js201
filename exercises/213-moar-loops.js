@@ -13,9 +13,17 @@ function removeZAnimals () {
   // 3) add every item in "animals" to "animalsWithoutZ" unless the animal name
   //    contains the letter "z"
   //    HINT: remember you can search within a string
-    if (animals.includes('z')) {
-        animalsWithoutZ =  
-      }
+    // if (animals.includes('z')) {
+    var n = animals.includes('z')
+
+    if (n = true) {
+      return animals[i]
+    }
+    // if (n = false) {
+    //   return 
+    // }
+
+
   // 4) return "animalsWithoutZ"
         {
           return animalsWithoutZ
