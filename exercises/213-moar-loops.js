@@ -14,14 +14,12 @@ function removeZAnimals () {
   //    contains the letter "z"
   //    HINT: remember you can search within a string
     // if (animals.includes('z')) {
-    var x = animals.includes('z')
+    var animals = animals.includes('z')
 
-    if (x = true) {
+    if (animals = true) {
       return animals[i]
     }
-    // if (n = false) {
-    //   return 
-    // }
+
 
 
   // 4) return "animalsWithoutZ"
