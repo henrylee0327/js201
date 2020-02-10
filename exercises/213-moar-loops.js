@@ -14,9 +14,9 @@ function removeZAnimals () {
   //    contains the letter "z"
   //    HINT: remember you can search within a string
     // if (animals.includes('z')) {
-    var n = animals.includes('z')
+    var x = animals.includes('z')
 
-    if (n = true) {
+    if (x = true) {
       return animals[i]
     }
     // if (n = false) {
